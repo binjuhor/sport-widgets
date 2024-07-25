@@ -1,0 +1,133 @@
+.dsgw-n-team-roster.dsgw-widget * {
+	font-family: 'Montserrat';
+	box-sizing: border-box;
+}
+
+.dsgw-n-team-roster.dsgw-widget {
+	background-color: white;
+	font-size: 16px;
+}
+
+.dsgw-n-team-roster .dsgw-c-group {
+	background: #FFF;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+	margin-bottom: 5px;
+	grid-template-columns: 250px 1fr;
+	display: grid;
+}
+
+.dsgw-n-team-roster .dsgw-c-category:not(.dsgw-c-active) {
+	display: none;
+}
+
+.dsgw-n-team-roster .dsgw-c-row {
+	height: 50px;
+	align-items: center;
+	font-size: 12px;
+}
+
+.dsgw-n-team-roster .dsgw-c-header {
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.dsgw-n-team-roster .dsgw-c-col1 .dsgw-c-header {
+	border-bottom: 1px solid #eee;
+}
+
+.dsgw-n-team-roster .dsgw-c-col1 .dsgw-c-row {
+	display: grid;
+	grid-template-columns: 50px 1fr;
+}
+
+.dsgw-n-team-roster .dsgw-c-col2 .dsgw-c-row {
+	grid-auto-columns: minmax(60px, 1fr);
+	display: grid;
+	grid-auto-flow: column;
+}
+
+.dsgw-n-team-roster .dsgw-c-row:not(.dsgw-c-header) .dsgw-c-c1,
+.dsgw-n-team-roster .dsgw-c-header .dsgw-c-c2 {
+	background: linear-gradient(90deg, #0070F0, #01F4F5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+
+.dsgw-n-team-roster .dsgw-c-c1,
+.dsgw-n-team-roster .dsgw-c-c3 {
+	text-align: center;
+}
+
+.dsgw-n-team-roster .dsgw-c-col2 .dsgw-c-c3 {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+}
+
+.dsgw-n-team-roster .dsgw-c-col2 .dsgw-c-c4 {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	min-width: 100px;
+}
+
+.dsgw-n-team-roster .dsgw-c-c2 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	white-space: nowrap;
+	padding-left: 5px;
+}
+
+.dsgw-n-team-roster .dsgw-c-c2 img {
+	width: 30px;
+}
+
+.dsgw-n-team-roster .dsgw-c-nav {
+	display: flex;
+	align-items: center;
+	height: 55px;
+	justify-content: space-between;
+}
+
+.dsgw-n-team-roster .dsgw-c-select {
+	position: relative;
+}
+
+.dsgw-n-team-roster .dsgw-c-label {
+	color: #bfbfbf;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.dsgw-n-team-roster .dsgw-c-select-label {
+	border: 1px solid #eee;
+	padding: 5px 20px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.dsgw-n-team-roster .dsgw-c-options {
+	display: none;
+	position: absolute;
+	top: 100%;
+	background-color: white;
+	z-index: 2;
+	width: 100%;
+	font-size: 13px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.dsgw-n-team-roster .dsgw-c-options>div {
+	line-height: 32px;
+	text-align: center;
+	cursor: pointer;
+}

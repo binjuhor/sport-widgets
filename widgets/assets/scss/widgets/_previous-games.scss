@@ -1,0 +1,101 @@
+.dsgw-n-previous-games.dsgw-widget * {
+	font-family: 'Montserrat';
+	box-sizing: border-box;
+}
+
+.dsgw-n-previous-games .dsgw-c-content {
+	background: #FFF;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+	padding: 10px;
+}
+
+.dsgw-n-previous-games .dsgw-c-teams {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.dsgw-n-previous-games .dsgw-c-teams>div {
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 2px;
+	cursor: pointer;
+	gap: 8px;
+	font-size: 16px;
+}
+
+.dsgw-n-previous-games .dsgw-c-teams>div.dsgw-c-active {
+	border-bottom-width: 3px;
+	border-image: linear-gradient(90deg, #0070F0 -12.5%, #01F4F5 111.11%) 1;
+	font-weight: bold;
+	padding-bottom: 0;
+}
+
+.dsgw-n-previous-games .dsgw-c-teams img {
+	width: 30px;
+}
+
+.dsgw-n-previous-games .dsgw-c-matches {}
+
+.dsgw-n-previous-games .dsgw-c-matches[data-side="away"] {
+	display: none;
+}
+
+.dsgw-n-previous-games .dsgw-c-match {
+	font-size: 13px;
+	display: grid;
+	grid-template-columns: 60px 1fr 30px 60px;
+	align-items: center;
+	height: 40px;
+}
+
+.dsgw-n-previous-games .dsgw-c-match img {
+	width: 25px;
+}
+
+.dsgw-n-previous-games .dsgw-c-c1 {
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.dsgw-n-previous-games .dsgw-c-c2 {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.dsgw-n-previous-games .dsgw-c-c3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.dsgw-n-previous-games .dsgw-c-c3.dsgw-c-r-W,
+.dsgw-n-previous-games.dsgw-mb-400 .dsgw-c-c4.dsgw-c-r-W {
+	color: green;
+	font-weight: bold;
+}
+
+.dsgw-n-previous-games .dsgw-c-c3.dsgw-c-r-L,
+.dsgw-n-previous-games.dsgw-mb-400 .dsgw-c-c4.dsgw-c-r-L {
+	color: red;
+	font-weight: bold;
+}
+
+.dsgw-n-previous-games .dsgw-c-c3.dsgw-c-r-D,
+.dsgw-n-previous-games.dsgw-mb-400 .dsgw-c-c4.dsgw-c-r-D {
+	color: #dfdfdf;
+	font-weight: bold;
+}
+
+.dsgw-n-previous-games .dsgw-c-c4 {
+	text-align: center;
+}
+
+.dsgw-n-previous-games.dsgw-mb-400 .dsgw-c-match {
+	grid-template-columns: 60px 1fr 60px;
+}
+
+.dsgw-n-previous-games.dsgw-mb-400 .dsgw-c-c3 {
+	display: none;
+}

@@ -1,0 +1,58 @@
+.dsgw-n-team-stats.dsgw-widget * {
+	font-family: 'Montserrat';
+	box-sizing: border-box;
+}
+
+.dsgw-n-team-stats.dsgw-widget {
+	background-color: white;
+	font-size: 16px;
+}
+
+.dsgw-n-team-stats .dsgw-c-category {
+	background: #FFF;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+	margin-bottom: 5px;
+	grid-template-columns: 250px 1fr;
+	display: grid;
+}
+
+.dsgw-n-team-stats .dsgw-c-stat {
+	display: grid;
+	height: 50px;
+	align-items: center;
+	padding-left: 10px;
+	font-size: 13px;
+}
+
+.dsgw-n-team-stats .dsgw-c-header {
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+	font-size: 11px;
+}
+
+.dsgw-n-team-stats .dsgw-c-col2 .dsgw-c-stat {
+	grid-auto-columns: minmax(150px, 1fr);
+	display: grid;
+	grid-auto-flow: column;
+}
+
+.dsgw-n-team-stats .dsgw-c-header .dsgw-c-c1 {
+	background: linear-gradient(90deg, #0070F0, #01F4F5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.dsgw-n-team-stats .dsgw-c-c2,
+.dsgw-n-team-stats .dsgw-c-c3 {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.dsgw-n-team-stats .dsgw-c-team-logo {
+	width: 30px;
+}
+
+.dsgw-n-team-stats .dsgw-c-season-logo {
+	width: 30px;
+}

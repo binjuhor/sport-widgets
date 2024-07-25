@@ -1,0 +1,15 @@
+$breakpoint-md: 640px;
+$breakpoint-lg: 1100px;
+
+@mixin phone {
+    @media (min-width: $breakpoint-md) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $breakpoint-lg) {
+        @content;
+    }
+}
+

@@ -1,0 +1,579 @@
+.dsgw-n-race .dsgw-c-content {
+  	font-family: Montserrat;
+	background: #FFF;
+	max-width: 1440px;
+	margin: auto;
+	padding: 20px;
+}
+
+.dsgw-n-race .dsgw-c-season-title {
+	font-size: 30px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dsgw-n-race .dsgw-c-season-title:after {
+	content: '';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-style: solid;
+	border-image: linear-gradient(90deg, #0070F0 -12.5%, #01F4F5 111.11%) 1;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	margin-left: 10px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar {
+	padding-top: 20px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-race-calendar-title,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-standing-title {
+	font-size: 45px;
+	text-align: center;
+	padding-bottom: 50px;
+  	font-family: RobotoSlab;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-calendar-group {
+	margin-bottom: 15px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-calendar-group.dsgw-box-shadow {
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-h,
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b {
+	display: flex;
+	padding: 10px 0;
+	font-weight: bold;
+	align-items: center;
+	position: relative;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-row,
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-h .dsgw-row {
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-row > div,
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-h .dsgw-row > div {
+	flex: 1;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-h .dsgw-row .dsgw-round,
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-row .dsgw-round {
+	flex: unset !important;
+	width: 80px;
+	margin-left: 20px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-arrow,
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-h .dsgw-arrow {
+	width: 30px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b {
+	border: 1px solid #eee;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-c-table-r {
+	display: flex;
+	align-items: center;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-round .dsgw-t-r-round {
+	margin-right: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-round .dsgw-t-r-round.dsgw-c-active {
+	background: -webkit-linear-gradient(0deg, #0070F0, #01F4F5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-round .dsgw-status {
+	width: unset;
+  	aspect-ratio: initial;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-round .dsgw-status.dsgw-pending {
+	background: #f00;
+	width: 6px;
+	height: 6px;
+	border-radius: 3px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-c-table-r img {
+	margin-right: 10px;
+	width: 38px;
+  	aspect-ratio: 1 / 1;
+  	object-fit: cover;
+  	border-radius: 50px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-c-table-r.dsgw-track img {
+  border-radius: initial;
+  aspect-ratio: initial;
+  object-fit: contain;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-c-table-r.dsgw-arrow:before {
+	content: '';
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	border: solid gray;
+	border-width: 0 2px 2px 0;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-c-table-r.dsgw-right:before {
+	transform: rotate(-45deg);
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-c-table-r.dsgw-down:before {
+	transform: rotate(45deg);
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail {
+	border: 1px solid #eee;
+	border-top: none;
+	display: none;
+	padding: 15px 0;
+	flex-direction: column;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr;
+	grid-auto-columns: minmax(50px, 1fr);
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules .dsgw-schedule {
+	padding: 0 15px;
+	border-right: 1px solid #eee;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules .dsgw-schedule .dsgw-schedule-date {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules .dsgw-schedule .dsgw-standing-group {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules .dsgw-schedule .dsgw-standing-group .dsgw-standing .dsgw-status {
+	margin-left: 10px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules .dsgw-schedule .dsgw-standing-group.dsgw-finished {
+	color: #737373;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules .dsgw-schedule .dsgw-standing-group .dsgw-standing {
+	display: flex;
+	align-items: center;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-winner {
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-winner .dsgw-title {
+	background: -webkit-linear-gradient(#0070F0, #01F4F5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-winner .dsgw-driver {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.dsgw-n-race .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-winner .dsgw-driver .dsgw-country {
+	width: 32px;
+	margin-right: 10px;
+  	aspect-ratio: 1 / 1;
+  	border-radius: 50px;
+  	object-fit: cover;
+}
+
+.dsgw-n-race .dsgw-c-nav {
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-auto-flow: column;
+	font-size: 16px;
+}
+
+.dsgw-n-race .dsgw-c-nav > div {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 3px solid transparent;
+	cursor: pointer;
+}
+
+.dsgw-n-race .dsgw-c-nav > div.dsgw-c-selected {
+	border-image: linear-gradient(90deg, #0070F0 -12.5%, #01F4F5 111.11%) 1;
+}
+
+.dsgw-n-race .dsgw-c-standing {
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table {
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 30px;
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-h,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-b {
+	display: grid;
+	grid-template-columns: 60px 1fr 160px 1fr 60px 60px;
+	grid-auto-columns: minmax(50px, 1fr);
+	grid-auto-flow: column;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-h {
+	height: 50px;
+	font-size: 12px;
+	align-items: center;
+	font-weight: bold;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-h > div:nth-child(2) {
+	padding-left: 45px;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-h > div:nth-child(2),
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-b > div:nth-child(2) {
+	justify-content: flex-start !important;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-c-table .dsgw-c-table-b {
+	align-items: center;
+	border-bottom: 1px solid #eee;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-b > div {
+	display: flex;
+	align-items: center;
+
+  	&.dsgw-drivers {
+		display: grid!important;
+	  	grid-template-columns: 40px 1fr;
+	  	gap: 5px;
+
+	  	.dsgw-avatar {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  width: 40px;
+
+		  img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+			aspect-ratio: 1 / 1;
+		  }
+		}
+	}
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-c-table .dsgw-c-table-b .dsgw-avatar {
+	height: 40px;
+	margin-right: 5px;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-c-table .dsgw-c-table-b .dsgw-country {
+	width: 32px;
+  	aspect-ratio: 1 / 1;
+  	border-radius: 50px;
+	margin-right: 10px;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-b .dsgw-c-t-r1 {
+	background: -webkit-linear-gradient(#0070F0, #01F4F5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table {
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 60px 30px;
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-c-table .dsgw-c-table-h,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-c-table .dsgw-c-table-b {
+	display: grid;
+	grid-template-columns: 60px 250px 1fr;
+	grid-auto-columns: minmax(50px, 1fr);
+	grid-auto-flow: column;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-h > div:first-child,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-b > div:first-child {
+	padding-left: 20px;
+	justify-content: unset !important;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .basic-table .dsgw-c-table .dsgw-c-table-h > div:nth-child(2),
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .basic-table .dsgw-c-table .dsgw-c-table-b > div:nth-child(2) {
+	justify-content: unset;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-c-table .dsgw-c-table-h .dsgw-country-name {
+	text-transform: uppercase;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-c-table .dsgw-c-table-h > div,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-c-table .dsgw-c-table-b > div {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-c-table .dsgw-c-table-b > div span {
+	width: 20px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-points-panel,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic {
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-points-panel .dsgw-c-point-table .dsgw-c-point-table-h,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-points-panel .dsgw-c-point-table .dsgw-c-point-table-b {
+	align-items: center;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-points-panel .dsgw-c-point-table .dsgw-c-point-table-h,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-points-panel .dsgw-c-point-table .dsgw-c-point-table-b {
+	height: 50px;
+	font-size: 12px;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-points-panel .dsgw-c-point-table .dsgw-c-point-table-b {
+	height: 40px;
+	font-size: 16px;
+	border-bottom: 1px solid #FFF;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-points-panel .dsgw-c-table-h {
+	text-align: center;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced span,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-basic span {
+	writing-mode: tb;
+	display: flex;
+	align-items: center;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced span:before {
+	transform: rotate(-45deg) !important;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced span:before,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-basic span:before {
+	content: '';
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border-style: solid;
+	border-image: linear-gradient(90deg, #0070F0 -12.5%, #01F4F5 111.11%) 1;
+	border-width: 0 2px 2px 0;
+	transform: rotate(135deg);
+	margin-bottom: 10px;
+}
+
+.dsgw-n-race .dsgw-c-constructors .dsgw-c-table {
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.dsgw-n-race .dsgw-c-constructors .dsgw-c-table .dsgw-c-table-h,
+.dsgw-n-race .dsgw-c-constructors .dsgw-c-table .dsgw-c-table-b {
+	display: grid;
+	grid-template-columns: 60px 1fr 1fr 80px 60px;
+	grid-auto-columns: minmax(50px, 1fr);
+	grid-auto-flow: column;
+}
+
+.dsgw-n-race .dsgw-c-constructors .dsgw-c-table .dsgw-c-table-b {
+	height: 40px;
+	align-items: center;
+	border-bottom: 1px solid #eee;
+}
+
+.dsgw-n-race .dsgw-c-constructors .dsgw-c-table .dsgw-c-table-b .dsgw-country {
+	height: 32px;
+  	width: 32px;
+  	aspect-ratio: 1 / 1;
+  	object-fit: cover;
+  	border-radius: 50px;
+	margin-right: 10px;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-points {
+	font-weight: bold;
+}
+
+.dsgw-c-standing .dsgw-c-results > div,
+.dsgw-c-standing .dsgw-c-results .dsgw-c-drivers > div {
+	display: none;
+}
+
+.dsgw-c-standing .dsgw-c-results > div.dsgw-c-active,
+.dsgw-c-standing .dsgw-c-results .dsgw-c-drivers > div.dsgw-show {
+	display: grid;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table {
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-h,
+.dsgw-n-race .dsgw-c-standing .dsgw-c-table .dsgw-c-table-b {
+	min-width: 650px;
+}
+
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-h .dsgw-row .dsgw-date,
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-row .dsgw-date {
+	flex: unset !important;
+	width: 120px;
+}
+
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-race-calendar-title,
+.dsgw-n-race.dsgw-mb .dsgw-c-standing .dsgw-c-standing-title {
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-h .dsgw-row .dsgw-track {
+	display: none;
+}
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-row .dsgw-track {
+	min-width: 100%;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-row .dsgw-round,
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-h .dsgw-row .dsgw-round {
+	margin-left: 0;
+}
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules {
+	grid-auto-flow: row;
+}
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules .dsgw-schedule {
+	border-right: none;
+	border-bottom: 1px solid #eee;
+	padding-top: 10px;
+}
+.dsgw-n-race.dsgw-mb .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-schedules .dsgw-schedule:last-child {
+	border: none;
+}
+
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-race-calendar .dsgw-c-race-calendar-title,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-standing-title {
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-h .dsgw-row .dsgw-date,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-table-b .dsgw-row .dsgw-date {
+	flex: unset !important;
+	width: 70px !important;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-winner {
+	flex-direction: column;
+	align-items: flex-start;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-winner .dsgw-team {
+	margin-top: 10px;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-race-calendar .dsgw-c-table .dsgw-c-calendar-detail .dsgw-winner .dsgw-driver {
+	margin-left: 0;
+	margin-top: 10px;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-h .dsgw-nation,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-h .dsgw-team,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-h .dsgw-wins,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-b .dsgw-nation,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-b .dsgw-team,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-b .dsgw-wins {
+	display: none;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-table .dsgw-c-table-h,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-table .dsgw-c-table-b {
+	min-width: calc(100% - 3px);
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-h,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-advanced-table .dsgw-c-table .dsgw-c-table-b {
+	grid-template-columns: 60px 1fr 60px;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-c-table .dsgw-c-table-b .dsgw-drivers .dsgw-driver-name {
+	display: none;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-c-table .dsgw-c-table-h,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-drivers .dsgw-basic-table .dsgw-c-table .dsgw-c-table-b {
+	grid-template-columns: 60px 60px 1fr;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-basic-table .dsgw-c-table .dsgw-c-table-h > div:nth-child(2) {
+	padding-left: 0;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-constructors .dsgw-c-table .dsgw-c-table-b .dsgw-drivers,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-standing .dsgw-c-constructors .dsgw-c-table .dsgw-c-table-h .dsgw-drivers {
+	display: none;
+}
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-constructors .dsgw-c-table .dsgw-c-table-h,
+.dsgw-n-race.dsgw-mb-400 .dsgw-c-constructors .dsgw-c-table .dsgw-c-table-b {
+	grid-template-columns: 40px 1fr 40px 40px;
+}

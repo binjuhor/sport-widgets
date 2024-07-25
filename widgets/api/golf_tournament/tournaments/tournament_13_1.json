@@ -1,0 +1,154 @@
+{
+  "top_players": [
+    {
+      "position": "#3",
+      "title": "Driving Instance",
+      "name": "K. Westmoreland",
+      "value": "328.1",
+      "avatar": "/assets/images/players/top1.png",
+      "flag": "/assets/images/flags/tn_nl-flag.gif"
+    },
+    {
+      "position": "#T9",
+      "title": "Driving Accuracy",
+      "name": "A. Lee",
+      "value": "67.9%",
+      "avatar": "/assets/images/players/top2.png",
+      "flag": "/assets/images/flags/tn_nl-flag.gif"
+    },
+    {
+      "position": "#2",
+      "title": "GIR",
+      "name": "D. Thompson",
+      "value": "77.8%",
+      "avatar": "/assets/images/players/top3.png",
+      "flag": "/assets/images/flags/tn_mk-flag.gif"
+    },
+    {
+      "position": "-",
+      "title": "Putts per GIR",
+      "name": "T. Montgomery",
+      "value": "1.556",
+      "avatar": "/assets/images/players/top4.png",
+      "flag": "/assets/images/flags/tn_be-flag.gif"
+    }
+  ],
+  "leaderboard": [
+    {
+      "player_id": 1,
+      "name": "Max Homa",
+      "flag": "/assets/images/flags/tn_af-flag.gif",
+      "score": -16,
+      "thru": "F",
+      "round": -3,
+      "r1": 65,
+      "r2": 67,
+      "r3": 65,
+      "r4": 67,
+      "strokes": 263,
+      "fedEx_pts": 500,
+      "details": {
+        "hole": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+        "par": [4, 4, 4, 3, 3, 4, 3, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 5],
+        "r1": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "r2": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "r3": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "r4": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "tot": {
+          "par": 71,
+          "r1": 64,
+          "r2": 66,
+          "r3": 66,
+          "r4": 68
+        }
+      }
+    },
+    {
+      "player_id": 2,
+      "name": "Joaquin Niemann",
+      "flag": "/assets/images/flags/tn_ag-flag.gif",
+      "score": -15,
+      "thru": "F",
+      "round": -6,
+      "r1": 63,
+      "r2": 56,
+      "r3": 63,
+      "r4": 56,
+      "strokes": 264,
+      "fedEx_pts": 300,
+      "details": {
+        "hole": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+        "par": [4, 4, 4, 3, 3, 4, 3, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 5],
+        "r1": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "r2": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "r3": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "r4": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "tot": {
+          "par": 71,
+          "r1": 64,
+          "r2": 66,
+          "r3": 66,
+          "r4": 68
+        }
+      }
+    },
+    {
+      "player_id": 3,
+      "name": "Joel Moscatel",
+      "flag": "/assets/images/flags/tn_an-flag.gif",
+      "score": -14,
+      "thru": "F",
+      "round": -4,
+      "r1": 64,
+      "r2": 64,
+      "r3": 64,
+      "r4": 64,
+      "strokes": 264,
+      "fedEx_pts": 200,
+      "details": {
+        "hole": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+        "par": [4, 4, 4, 3, 3, 4, 3, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 5],
+        "r1": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "r2": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "r3": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "r4": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "tot": {
+          "par": 71,
+          "r1": 64,
+          "r2": 66,
+          "r3": 66,
+          "r4": 68
+        }
+      }
+    },
+    {
+      "player_id": 4,
+      "name": "Max Homa",
+      "flag": "/assets/images/flags/tn_us-flag.gif",
+      "score": -13,
+      "thru": "F",
+      "round": -5,
+      "r1": 67,
+      "r2": 67,
+      "r3": 67,
+      "r4": 67,
+      "strokes": 265,
+      "fedEx_pts": 150,
+      "details": {
+        "hole": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+        "par": [4, 4, 4, 3, 3, 4, 3, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 5],
+        "r1": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "r2": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "r3": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "r4": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "tot": {
+          "par": 71,
+          "r1": 64,
+          "r2": 66,
+          "r3": 66,
+          "r4": 68
+        }
+      }
+    }
+  ]
+}

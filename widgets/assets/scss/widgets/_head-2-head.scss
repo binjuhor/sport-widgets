@@ -1,0 +1,237 @@
+.dsgw-n-h2h.dsgw-widget * {
+	font-family: 'Montserrat';
+	box-sizing: border-box;
+}
+
+.dsgw-n-h2h.dsgw-widget a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.dsgw-n-h2h .dsgw-c-results {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 10px;
+	width: 100%;
+	justify-items: center;
+}
+
+.dsgw-n-h2h .dsgw-c-match {
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+	padding: 10px 0;
+	max-width: 500px;
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: 190px 1fr;
+	min-height: 150px;
+}
+
+.dsgw-n-h2h .dsgw-c-mc-t1 {
+	position: absolute;
+	background-color: transparent;
+	width: 3px;
+	height: 50%;
+	top: 0px;
+}
+
+.dsgw-n-h2h .dsgw-c-mc-t2 {
+	position: absolute;
+	background-color: transparent;
+	width: 3px;
+	height: 50%;
+	bottom: 0px;
+}
+
+.dsgw-n-h2h .dsgw-c-match.dsgw-status-live .dsgw-c-mc-t1,
+.dsgw-n-h2h .dsgw-c-match.dsgw-status-live .dsgw-c-mc-t2 {
+	background-color: red !important;
+	width: 0;
+}
+
+.dsgw-n-h2h .dsgw-c-match.dsgw-status-live {
+	border: 2px solid red;
+}
+
+.dsgw-n-h2h .dsgw-c-match.dsgw-status-fixture {
+	grid-template-columns: 1fr 1fr;
+}
+
+.dsgw-n-h2h .dsgw-c-match.dsgw-status-fixture .dsgw-c-m-c2 {
+	border-left: 1px solid #eee;
+	height: calc(100% + 20px);
+	margin-top: -10px;
+}
+
+.dsgw-n-h2h .dsgw-c-m-h,
+.dsgw-n-h2h .dsgw-c-m-r {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	height: 50px;
+	align-items: center;
+	padding-left: 30px;
+}
+
+.dsgw-n-h2h .dsgw-c-m-r {
+	font-size: 14px;
+}
+
+.dsgw-n-h2h .dsgw-c-m-h {
+	font-weight: bold;
+	height: 30px;
+	font-size: 13px;
+}
+
+.dsgw-n-h2h .dsgw-c-m-1 {
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.dsgw-n-h2h .dsgw-live-circle {
+	width: 9px;
+	height: 9px;
+	background-color: red;
+	border-radius: 10px;
+}
+
+.dsgw-n-h2h .dsgw-c-m-v {
+	display: grid;
+	width: 100%;
+	height: 100%;
+	justify-items: center;
+	align-content: center;
+	text-align: center;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+.dsgw-n-h2h .dsgw-c-m-1 img {
+	width: 35px;
+}
+
+.dsgw-n-h2h .dsgw-c-m-1 span {
+	color: #737373;
+	font-size: 13px;
+}
+
+.dsgw-n-h2h .dsgw-c-m-s {
+	grid-auto-columns: minmax(0, 1fr);
+	display: grid;
+	grid-auto-flow: column;
+	justify-items: center;
+	align-items: items;
+	border-right: 3px solid transparent;
+}
+
+.dsgw-n-h2h .dsgw-c-m-s>div:not(:nth-last-child(-n+6)) {
+	display: none;
+}
+
+.dsgw-n-h2h .dsgw-c-m-s.dsgw-winner {
+	border-image: linear-gradient(180deg, #0070F0 -12.5%, #01F4F5 111.11%) 1;
+}
+
+.dsgw-n-h2h .slimScrollBarY {
+	background: linear-gradient(90deg, rgb(0, 112, 240) -12.5%, rgb(1, 244, 245) 111.11%), rgb(0, 0, 0);
+	opacity: 1;
+}
+
+.dsgw-bold {
+	font-weight: bold;
+}
+
+.dsgw-n-h2h.dsgw-mb-400 .dsgw-c-results {
+	grid-template-columns: 1fr;
+}
+
+.dsgw-n-h2h.dsgw-mb .dsgw-c-match:not(.dsgw-status-fixture) {
+	grid-template-columns: 150px 1fr;
+}
+
+.dsgw-n-h2h.dsgw-mb .dsgw-c-m-1 img {
+	width: 24px;
+}
+
+.dsgw-n-h2h.dsgw-mb .dsgw-c-m-h {
+	font-size: 9px;
+}
+
+.dsgw-n-h2h.dsgw-mb .dsgw-c-m-r {
+	font-size: 13px;
+}
+
+.dsgw-n-h2h.dsgw-mb .dsgw-c-m-h,
+.dsgw-n-h2h.dsgw-mb .dsgw-c-m-r {
+	padding-left: 15px;
+}
+
+.dsgw-n-h2h .dsgw-c-teams {
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+	padding: 10px 0;
+	max-width: 500px;
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-rows: 40px 1fr;
+	min-height: 150px;
+	align-items: center;
+}
+
+.dsgw-n-h2h .dsgw-c-t-t1,
+.dsgw-n-h2h .dsgw-c-t-t2 {
+	position: absolute;
+	background-color: transparent;
+	width: 3px;
+	height: 100%;
+	top: 0px;
+	left: 0;
+}
+
+.dsgw-n-h2h .dsgw-c-t-t2 {
+	right: 0;
+	left: unset;
+}
+
+.dsgw-n-h2h .dsgw-c-label {
+	font-weight: bold;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.dsgw-n-h2h .dsgw-c-totals {
+	padding-left: 10px;
+	display: grid;
+	grid-template-columns: 1fr 100px 1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.dsgw-n-h2h .dsgw-c-totals>div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dsgw-n-h2h .dsgw-c-totals img {
+	max-width: 100%;
+}
+
+.dsgw-n-h2h .dsgw-c-res {
+	font-size: 40px;
+	font-weight: bold;
+	display: flex;
+	gap: 15px;
+}
+
+.dsgw-n-h2h .dsgw-c-res>div {
+	background: linear-gradient(90deg, #0070F0 -192.5%, #01F4F5 111.11%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.dsgw-n-h2h.dsgw-mb-400 .dsgw-c-totals img {
+	max-width: 65px;
+}
