@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve && vite",
+    "dev": "npm run serve",
+    "build": "vue-cli-service build && vite build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vitejs/plugin-vue": "^5.1.0",
     "axios": "^1.7.2",
     "core-js": "^3.8.3",
+    "vite": "^5.3.5",
     "vue": "^3.2.13"
   },
   "devDependencies": {
