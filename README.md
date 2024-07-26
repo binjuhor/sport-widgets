@@ -1,4 +1,4 @@
-# vue-widget-project
+# GSA Website
 
 ## Project setup
 ```
