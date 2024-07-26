@@ -24,17 +24,17 @@ npm run lint
 
 ### Run project with docker
 
-Just run docker container with command: `docker-composer up -d --build` then you can check the embed widget on `http://localhost:8081/`
+Just run docker container with command: `docker-composer up -d --build` then you can check the embed widget on `http://localhost:8081/` <- `this site demo for embed widget`
 
-Check the site with original VueJs project on `http://localhost:8080/`
+Check the site with original VueJs project on `http://localhost:8080/` <- `this site my idea will work for GSA website`
 
-### Next Challenge
+### Challenge
 
 - [x] Create a VueJs project
 - [x] Create a VueJs component
-- [x] Create an embed widget
-- [ ] Add outside js file to the embed widget
-- [ ] Add outside css file to the embed widget
+- [x] Create an embed widget (web component)
+- [x] All widgets should be server side render (rendered HTML by PHP)
+- [x] Dynamically load only necessary assets (js and css)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
