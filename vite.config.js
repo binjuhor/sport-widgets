@@ -11,6 +11,7 @@ export default defineConfig({
   },
   build:
     {
+      cssCodeSplit: false,
       lib: {
         entry: 'src/widgets.js',
         name: 'WidgetComponents', // Name for your library

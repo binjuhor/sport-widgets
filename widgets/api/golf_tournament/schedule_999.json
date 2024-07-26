@@ -28,13 +28,13 @@
       "activate": true,
       "name": "The American Express",
       "date": "January 2024, 18-21",
-      "logo": "/assets/images/tours/american-express.png",
+      "logo": "http://localhost:8081/assets/images/tours/american-express.png",
       "location": "Pete Dye Stadium Course La Quinta / CA, USA",
       "fedex_cup": 500,
       "purse": "$8,400,000",
       "previous_winner": {
         "name": "Jon Rahm",
-        "flag": "/assets/images/flags/tn_nl-flag.gif",
+        "flag": "http://localhost:8081/assets/images/flags/tn_nl-flag.gif",
         "earnings": "$1,440,000"
       },
       "top_players": [
@@ -43,39 +43,39 @@
           "title": "Driving Instance",
           "name": "K. Westmoreland",
           "value": "328.1",
-          "avatar": "/assets/images/players/top1.png",
-          "flag": "/assets/images/flags/tn_nl-flag.gif"
+          "avatar": "http://localhost:8081/assets/images/players/top1.png",
+          "flag": "http://localhost:8081/assets/images/flags/tn_nl-flag.gif"
         },
         {
           "position": "#T9",
           "title": "Driving Accuracy",
           "name": "A. Lee",
           "value": "67.9%",
-          "avatar": "/assets/images/players/top2.png",
-          "flag": "/assets/images/flags/tn_nl-flag.gif"
+          "avatar": "http://localhost:8081/assets/images/players/top2.png",
+          "flag": "http://localhost:8081/assets/images/flags/tn_nl-flag.gif"
         },
         {
           "position": "#2",
           "title": "GIR",
           "name": "D. Thompson",
           "value": "77.8%",
-          "avatar": "/assets/images/players/top3.png",
-          "flag": "/assets/images/flags/tn_mk-flag.gif"
+          "avatar": "http://localhost:8081/assets/images/players/top3.png",
+          "flag": "http://localhost:8081/assets/images/flags/tn_mk-flag.gif"
         },
         {
           "position": "-",
           "title": "Putts per GIR",
           "name": "T. Montgomery",
           "value": "1.556",
-          "avatar": "/assets/images/players/top4.png",
-          "flag": "/assets/images/flags/tn_be-flag.gif"
+          "avatar": "http://localhost:8081/assets/images/players/top4.png",
+          "flag": "http://localhost:8081/assets/images/flags/tn_be-flag.gif"
         }
       ],
       "leaderboard": [
         {
           "player_id": 1,
           "name": "Max Homa",
-          "flag": "/assets/images/flags/tn_af-flag.gif",
+          "flag": "http://localhost:8081/assets/images/flags/tn_af-flag.gif",
           "score": -16,
           "thru": "F",
           "round": -3,
@@ -104,7 +104,7 @@
         {
           "player_id": 2,
           "name": "Joaquin Niemann",
-          "flag": "/assets/images/flags/tn_ag-flag.gif",
+          "flag": "http://localhost:8081/assets/images/flags/tn_ag-flag.gif",
           "score": -15,
           "thru": "F",
           "round": -6,
@@ -133,7 +133,7 @@
         {
           "player_id": 3,
           "name": "Joel Moscatel",
-          "flag": "/assets/images/flags/tn_an-flag.gif",
+          "flag": "http://localhost:8081/assets/images/flags/tn_an-flag.gif",
           "score": -14,
           "thru": "F",
           "round": -4,
@@ -162,7 +162,7 @@
         {
           "player_id": 4,
           "name": "Max Homa",
-          "flag": "/assets/images/flags/tn_us-flag.gif",
+          "flag": "http://localhost:8081/assets/images/flags/tn_us-flag.gif",
           "score": -13,
           "thru": "F",
           "round": -5,
@@ -196,13 +196,13 @@
       "activate": false,
       "name": "Sony Open in Hawaii",
       "date": "January 2024, 11-14",
-      "logo": "/assets/images/tours/sony-open.png",
+      "logo": "http://localhost:8081/assets/images/tours/sony-open.png",
       "location": "Waialae Country Club / Honolulu, USA",
       "fedex_cup": 500,
       "purse": "$8,300,000",
       "previous_winner": {
         "name": "Si Woo Kim",
-        "flag": "/assets/images/flags/tn_be-flag.gif",
+        "flag": "http://localhost:8081/assets/images/flags/tn_be-flag.gif",
         "earnings": "$1,422,000"
       }
     },
@@ -212,13 +212,13 @@
       "activate": false,
       "name": "The Sentry",
       "date": "January 2024, 4-7",
-      "logo": "/assets/images/tours/the-sentry.png",
+      "logo": "http://localhost:8081/assets/images/tours/the-sentry.png",
       "location": "Plantation Course at Kapalua / Maui, USA",
       "fedex_cup": 700,
       "purse": "$20,000,000",
       "previous_winner": {
         "name": "Chris Kirk",
-        "flag": "/assets/images/flags/tn_us-flag.gif",
+        "flag": "http://localhost:8081/assets/images/flags/tn_us-flag.gif",
         "earnings": "$3,600,000"
       }
     }

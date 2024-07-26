@@ -19,6 +19,10 @@
     id: {
       type: Number,
       required: true
+    },
+    params: {
+      type: Object,
+      default: () => ({})
     }
   })
 
@@ -28,7 +32,8 @@
       params: {
         widget: props.name,
         wid: props.wid,
-        id: props.id
+        id: props.id,
+        ...props.params
       }
     })
     .then(response => {
@@ -36,8 +41,8 @@
     })
   }
 
-  onMounted(() => {
-    fetchWidgetHtml()
+  onMounted(async () => {
+    await fetchWidgetHtml()
   })
-
 </script>
+

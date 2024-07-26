@@ -2,6 +2,10 @@
   "999": {
     "widget_id": "999",
     "name": "golf_tournament"
+  },
+  "222": {
+    "widget_id": "222",
+    "name": "news_item"
   }
 }
 
