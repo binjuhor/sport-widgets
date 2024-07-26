@@ -24,7 +24,7 @@ npm run lint
 
 ### Run project with docker
 
-Just run docker container with command: `docker-composer up -d --build` then you can check the embed widget on `http://localhost:8081/` <- `this site demo for embed widget`
+Just run docker container with command: `docker-composer up -d --build` then you can check the embed widget on `http://localhost:8081/` <- `this site demo for embed widget` we need to run `yarn build` before check this embed widget because I loaded the bundled js file from the dist folder.
 
 Check the site with original VueJs project on `http://localhost:8080/` <- `this site my idea will work for GSA website`
 
