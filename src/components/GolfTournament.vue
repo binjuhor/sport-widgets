@@ -10,7 +10,8 @@
   const props = defineProps({
     name: {
       type: String,
-      required: true
+      required: true,
+      default: 'golf_tournament'
     },
     wid: {
       type: Number,
@@ -20,10 +21,6 @@
       type: Number,
       required: true
     },
-    params: {
-      type: Object,
-      default: () => ({})
-    }
   })
 
   const fetchedHtml = ref(null)
@@ -33,7 +30,6 @@
         widget: props.name,
         wid: props.wid,
         id: props.id,
-        ...props.params
       }
     })
     .then(response => {
@@ -45,4 +41,3 @@
     await fetchWidgetHtml()
   })
 </script>
-

@@ -14,9 +14,9 @@ export default defineConfig({
       cssCodeSplit: false,
       lib: {
         entry: 'src/widgets.js',
-        name: 'WidgetComponents', // Name for your library
-        formats: ['umd'], // umd or es
-        fileName: 'widgets-loader', // Output file name
+        name: 'WidgetComponents',
+        formats: ['umd'],
+        fileName: 'widgets-loader',
       },
       rollupOptions: {
         external: ['vue'],
